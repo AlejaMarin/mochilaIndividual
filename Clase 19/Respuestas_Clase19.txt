@@ -1,0 +1,27 @@
+Protocolo TCP/IP
+
+*Capa de Aplicación:
+Protocolo NFS (Network File System) -> Protocolo que permite acceso remoto
+a un sistema de archivos a través de la red. [Puerto 2049]
+
+*Capa de Transporte:
+Protocolo UDP (User Datagram Protocol) -> Protocolo que permite la transmisión
+sin conexión de datagramas en redes basadas en IP.[Puerto 143]
+
+*Capa de Red:
+Protocolo ARP (Address Resolution Protocol) -> Protocolo que lleva a cabo la
+resolución de direcciones IPv4 en direcciones MAC. Es imprescindible para
+la transmisión de datos en redes Ethernet.
+
+*Capa de Enlace de Datos:
+Protocolo PPP (Point-to-Point Protocol) -> Permite establecer una comunicación
+a nivel de enlace entre dos computadoras. Se utiliza para establecer la conexión
+a Internet de un particular con su proveedor de acceso a través de un
+módem telefónico.
+
+*Capa Física:
+Token Ring -> Una red Token Ring es una red de área local (LAN) en la que todos
+los equipos están conectados en una topología de anillo de estrella y se utiliza
+el régimen de paso de testigo a fin de evitar la colisión de datos entre dos
+equipos que desean enviar información al mismo tiempo. El protocolo Token Ring
+es el segundo más utilizado en redes de área local después de Ethernet.
